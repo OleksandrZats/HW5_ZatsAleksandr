@@ -1,0 +1,137 @@
+* {
+  transition: all 0.1s ease-in;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 130px;
+}
+h1,
+.heading-li {
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+p {
+  font-family: PT Sans;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  color: #898f99;
+}
+
+header > h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+
+  letter-spacing: 5px;
+
+  color: #0ec8cb;
+
+  margin-top: 20px;
+}
+
+.main-header-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #999999;
+  padding: 30px;
+  margin: 0px auto 60px;
+  width: 33%;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 420px;
+  background-color: #f7f7f7;
+  border: 1px solid #ececec;
+  padding: 5px;
+}
+li * {
+  margin: 0 auto;
+  width: 212px;
+}
+li > div {
+  margin: 50px auto;
+  width: 65px;
+  height: 65px;
+}
+.img-anchor {
+  background: url(../img/anchorB.png) center center no-repeat;
+  background-size: contain;
+}
+.img-diamond {
+  background: url(../img/diamondB.png) center center no-repeat;
+  background-size: contain;
+}
+.img-glasses {
+  background: url(../img/glassesB.png) center center no-repeat;
+  background-size: contain;
+}
+.img-monitor {
+  background: url(../img/monitorB.png) center center no-repeat;
+  background-size: contain;
+}
+
+.heading-li {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  width: 212px;
+  margin-bottom: 30px;
+}
+.text-li {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+}
+
+li:hover {
+  background: #0ec8cb;
+  border: 1px solid #0ec8cb;
+}
+li:hover * {
+  color: #fff;
+}
+li:hover .img-anchor {
+  background-image: url(../img/anchorW.png);
+}
+li:hover .img-diamond {
+  background-image: url(../img/diamondW.png);
+}
+li:hover .img-glasses {
+  background-image: url(../img/glassesW.png);
+}
+li:hover .img-monitor {
+  background-image: url(../img/monitorW.png);
+}
